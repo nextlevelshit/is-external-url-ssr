@@ -1,0 +1,28 @@
+{
+  "name": "is-url-external-ssr",
+  "version": "1.0.0-0",
+  "description": "A simple function that tells you whether an URL is external or not even in node and ssr.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nextlevelshit/is-url-external-ssr.git"
+  },
+  "keywords": [
+    "link",
+    "href",
+    "external",
+    "internal",
+    "blank",
+    "target",
+    "a"
+  ],
+  "author": "Michael Czechowski <mail@dailysh.it>",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/nextlevelshit/is-url-external-ssr/issues"
+  },
+  "homepage": "https://github.com/nextlevelshit/is-url-external-ssr#readme",
+  "dependencies": {
+    "jsdom": "^16.2.2"
+  }
+}
