@@ -8,7 +8,7 @@ module.exports = function(url) {
   const host = dom.window.location.hostname
 
   const linkHost = function(url) {
-    if (/^https?:\/\//.test(url)) { // Absolute URL.
+    if (/^(https?:)?\/\//.test(url)) { // Absolute URL.
       // The easy way to parse an URL, is to create <a> element.
       // @see: https://gist.github.com/jlong/2428561
       const parser = document.createElement('a')
